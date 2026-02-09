@@ -1,0 +1,30 @@
+{
+  "description": "Sample evaluation dataset for testing RAG quality",
+  "questions": [
+    {
+      "question": "How does authentication work in this codebase?",
+      "expected_files": ["src/auth.py", "src/middleware/auth.js", "auth/handler.go"],
+      "category": "architecture"
+    },
+    {
+      "question": "Where is the database connection configured?",
+      "expected_files": ["config/database.py", "src/db/connection.ts", "database.yml"],
+      "category": "configuration"
+    },
+    {
+      "question": "What testing framework is used?",
+      "expected_files": ["tests/", "package.json", "pytest.ini", "jest.config.js"],
+      "category": "tooling"
+    },
+    {
+      "question": "How are API routes defined?",
+      "expected_files": ["src/routes/", "api/", "router.py", "routes.ts"],
+      "category": "architecture"
+    },
+    {
+      "question": "What error handling strategy is implemented?",
+      "expected_files": ["src/errors/", "middleware/error.js", "exceptions.py"],
+      "category": "patterns"
+    }
+  ]
+}
