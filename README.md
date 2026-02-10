@@ -1,6 +1,6 @@
 # Codebase Copilot 🤖
 
-A production-grade AI-powered code assistant that ingests GitHub repositories and provides intelligent Q&A with precise file+line citations, built with RAG (Retrieval Augmented Generation) and hallucination guardrails.
+An AI-powered code assistant that ingests GitHub repositories and provides intelligent Q&A with precise file+line citations, built with RAG (Retrieval Augmented Generation) and hallucination guardrails.
 
 ## 🏗️ Architecture
 ````
